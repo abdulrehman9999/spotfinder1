@@ -1,0 +1,636 @@
+body{
+    /* margin: 0px;
+    padding: 0px; */
+    line-height: inherit;
+    margin: 0;
+    font-family:Poppins;
+    overflow-x: hidden;
+}
+.main-top{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* border: 1px solid; */
+    /* width: 73%; */
+    /* justify-content: space-between; */
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    top: 0;
+    position: fixed;
+    font-family: Poppins;
+    height: 85px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255/var(--tw-bg-opacity));
+    border-bottom-width: 1px;
+    align-items: center;
+    border-bottom: 1px solid wheat;
+}
+
+.SpotFinder{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.SpotFinder img{
+    width: 50px;
+    height: 50px;
+}
+.SpotFinder h1{
+    font-size: x-large;
+    font-family: sans-serif;
+}
+.main-home{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Blog{
+    font-family: 11PX;
+    color: #616161ba;
+}
+.Blog:hover{
+color: blue;
+border-radius: 3px;
+}
+.mian-file{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    align-items: center;
+
+}
+.file{
+    display: flex;
+    gap: 20px;
+}
+.button{
+    background: none;
+    border: none;
+    color: #757575;
+    font-size: small;
+    font-family: sans-serif;
+}
+.button:hover{
+    color: blue;
+    
+}
+.Register{
+    border-radius: 15px;
+    background: rgb(228, 26, 26);
+    border: none;
+    color: #FFF;
+    height: 35px;
+    width: 95px;
+}
+.Register:hover{
+    background: #424345;
+}
+.main-view{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 96px;
+    background: #00968830;
+    padding: 15px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    width: 100%;
+}
+.main-Parking{
+    display: flex;
+    gap: 10px;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+.Simplified{
+    color: #ed1818;
+}
+.Easily{
+    color: #424345;
+    font-size: x-large;
+    font-family: sans-serif
+}
+.main-your{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    width: 431px;
+    height: 48px;
+    background: white;
+    padding: 10px;
+}
+.img{
+    width: 50px;
+    height: 50px;
+}
+.input1{
+    color: inherit;
+    font-family: sans-serif;
+    font-size: 100%;
+    font-weight: inherit;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    border: none;
+    width: 380px;
+}
+.Tomato{
+    width: 404px;
+    height: 60px;
+    /* border: 1px solid red;
+    transition: 0.5s; */
+    outline: none;
+    border: none;
+}
+.main-input{
+    display: flex;
+    gap: 10px
+}
+.help{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    width: 190px;
+    height: 40px;
+    background: white;
+    gap: 10px;
+    padding: 10px;
+}
+.input{
+    width: 165px;
+    height: 40px;
+    outline: none;
+    border: none;
+}
+.Spaces{
+    width: 240px;
+    height: 45px;
+    border-radius: 90px;
+    border: none;
+    background: #d52626d1;
+    color: #FFF;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+.Spaces:hover{
+background: red;
+border: 1px solid white;
+color: #FFFF;
+}
+.imgas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgas img{
+    border-radius: 15px;
+    width: 500px;
+}
+.imgas img:hover{
+    box-shadow: 10px 10px 60px rgb(0, 0, 0);
+    border: 1px solid rgb(232, 228, 228);
+}
+
+
+
+
+
+
+
+
+
+
+
+.main-center {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.everywhere {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.everywhere h1 {
+    margin-top: 5px;
+    font-size: xxx-large;
+    font-family: sans-serif;
+
+}
+.everywhere p{
+    color: #605f5f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.main-card {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.card {
+    width: calc(33.33% - 40px);
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #9E9E9E;
+    width: 100%;
+    border-radius: 20px;
+}
+.card:hover{
+    background-color: #605f5f;
+    color: #FFF;
+}
+.card img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+.City{
+    display: flow;
+    margin-top: 20px;
+    padding: 10px;
+}
+.card h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+
+}
+.card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card button:hover{
+    background-color: #e60c0c;
+}
+
+
+
+
+
+
+
+
+    .main-Terminal {
+        background: radial-gradient(black, transparent);
+        padding: 20px;
+        text-align: center;
+    }
+    .Finder {
+        color: #FFF;
+        font-size: large;
+        font-family: sans-serif;
+    }
+    .Finder h1{
+        margin-top: 5px;
+        font-size: xxx-large;
+        font-family: sans-serif;
+    }
+    .Tomato1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .makes {
+        border: 1px solid #9E9E9E;
+        background: #FFF;
+        width: calc(33.33% - 40px);
+        margin: 20px;
+        border-radius: 15px;
+        text-align: center;
+        padding: 20px;
+        border: 1px solid #424345;
+    }
+    .makes:hover{
+        color: #fff;
+        background-image: url(img/44._parking.sg_app_credit_ministry_of_communications.jpg);
+        border: 1px solid #FFF;
+    }
+    .img5 {
+        width: 100px;
+        height: 100px;
+        border-radius: 20px;
+    }
+    .h6 {
+        font-size: large;
+        font-family: sans-serif;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .p {
+        font-size: medium;
+        font-family: sans-serif;
+        margin: 0;
+    }
+
+
+
+
+
+
+
+
+.main-Days{
+    display: flow;
+    text-align: center;
+    height: 500px;
+    margin-top: 30px;
+}
+.Parking{
+    font-family: sans-serif;
+    font-size: x-large;
+}
+.Days{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 6px;
+}
+.Wyndham{
+    display: flow;
+    border: 1px solid #BDBDBD;
+    height: 395px;
+    border-radius: 10px;
+}
+.Wyndham img{
+    width: 270px;
+    height: 200px;
+    border-radius: 10px;
+}
+.Wyndham h3{
+    font-size: larger;
+    font-family: sans-serif;
+}
+.Wyndham p{
+    font-family: sans-serif;
+    font-size: small;
+}
+.Wyndham button{
+    background: red;
+    color: #FFF;
+    border: none;
+    width: 115px;
+    height: 40px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.Wyndham:hover{
+    background: teal;
+    color: #FFF;
+}
+.Wyndham button:hover{
+  background: #605f5f;
+   color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+.main-loved{
+    width: 100%;
+    /* border: 1px solid; */
+    border: none;
+}
+.loved{
+    margin-left: 20px;
+    width: 610px;
+    border: 1px solid #7c7b7b;
+    padding: 10px;
+   border-radius: 10px;
+
+}
+.Anonymous{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    /* border: 1px solid; */
+    width: 200px;
+    border: none;
+}
+.i{
+    background: #d817b96e;
+    /* border: 1px solid; */
+    width: 45px;
+    height: 45px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 5px;
+    border-radius: 40px;
+    align-items: center;
+
+}
+.more{
+    font-family: sans-serif;
+}
+.using{
+    font-family: sans-serif;
+    color: #646566;
+}
+.Read{
+    display: flex;
+    align-items: center;
+    font-size: unset;
+    font-family: sans-serif;
+    color:#f01924;
+}
+.loved:hover{
+    background-color: wheat;
+}
+
+
+
+
+
+
+
+
+.main-car{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-family: sans-serif;
+
+}
+.car{
+    border: 1px solid #605f5f;
+    border-radius: 10px;
+    height: 480px;
+}
+.car img{
+    width: 380px;
+    height: 250px;
+    border-radius: 10px;
+}
+.car h3{
+    font-size: 18px;
+    color: #131312;
+}
+.car p{
+    color: #9E9E9E;
+    font-size: 15px;
+}
+.car h6{
+    color: red;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.car:hover{
+    background: #605f5f;
+    box-shadow: 10px 10px 40px #605f5f;
+    border: 1px solid #FFF;
+   
+}
+
+
+
+
+
+
+.business{
+    background-image: url(img/stock-photo-cropped-view-businessmen-shaking-hands-meeting-office.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 554px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #424345;
+}
+.Become{
+
+    display: contents;
+    text-align: center;
+}
+.Become h1{
+    color: #FFF;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+.Become p{
+    color: #FFF;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+.Become button{
+    width: 175px;
+    height: 65px;
+    border-radius: 15px;
+    border: none;
+    background: red;
+    color: #FFF;
+}
+.Become button:hover{
+    box-shadow: 10px 10px 40px #535252;
+    background-color: #605f5f;
+}
+
+
+
+
+.main-Spot{
+    background:#1565c02e;
+    margin-top: 10px;
+    padding: 20px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 175px;
+}
+.main-SUBSCRIBE{
+    font-size: 15PX;
+    font-family: sans-serif;
+}
+.main-SUBSCRIBE p{
+    color: #757575;
+}
+.Enter{
+    border: none;
+    width: 210px;
+    height: 55px;
+    padding: 5px
+}
+.Subscribe{
+    border: navajowhite;
+    width: 100px;
+    height: 65px;
+    background: red;
+    color: #FFF;
+}
+
+
+
+
+
+
+
+.main-About{
+    display: flex;
+    border: 1px solid;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: sans-serif;
+    border: none;
+    color:#757575 ;
+
+}
+.reserved{
+    border: 1px solid #757575;
+    margin-top: 10px;
+    height: 2px;
+    background: #757575;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
+
+}
+.main-Life{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 10px;
+}
+.Life{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.Terms{
+    display: flex;
+    gap: 10px;
+}
+
